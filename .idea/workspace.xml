@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8415851e-78c2-43dc-9fc1-6b5a2acf37fa" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jana/spark/Main.java" afterPath="$PROJECT_DIR$/src/main/java/com/jana/spark/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jana/spark/model/CourseIdea.java" afterPath="$PROJECT_DIR$/src/main/java/com/jana/spark/model/CourseIdea.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jana/spark/model/CourseIdeaDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jana/spark/model/CourseIdeaDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/jana/spark/model/SimpleCourseIdeaDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/jana/spark/model/SimpleCourseIdeaDAO.java" />
@@ -48,11 +49,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jana/spark/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleCourseIdeaDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SimpleCourseIdeaDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/jana/spark/model/SimpleCourseIdeaDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="221">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
@@ -428,12 +429,12 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/index.hbs" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/sign-in.hbs" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jana/spark/Main.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/index.hbs" />
         <option value="$PROJECT_DIR$/src/main/java/com/jana/spark/model/CourseIdea.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jana/spark/model/CourseIdeaDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jana/spark/model/SimpleCourseIdea.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jana/spark/model/SimpleCourseIdeaDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jana/spark/Main.java" />
       </list>
     </option>
   </component>
@@ -1093,7 +1094,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1487019434357</updated>
-      <workItem from="1487019435844" duration="3725000" />
+      <workItem from="1487019435844" duration="3852000" />
     </task>
     <task id="LOCAL-00001" summary="Created course model with old method of creation">
       <created>1487023014646</created>
@@ -1102,15 +1103,22 @@
       <option name="project" value="LOCAL" />
       <updated>1487023014647</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created course model with old method of creation">
+      <created>1487023185059</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1487023185059</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3725000" />
+    <option name="totallyTimeSpent" value="3852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-93" width="1696" height="1066" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1121,7 +1129,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30620986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1187,16 +1195,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jana/spark/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jana/spark/model/CourseIdea.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -1220,8 +1218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jana/spark/model/SimpleCourseIdeaDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state relative-caret-position="221">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
@@ -1230,6 +1228,16 @@
             <element signature="e#350#351#0" expanded="true" />
             <element signature="e#405#406#0" expanded="true" />
             <element signature="e#475#476#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jana/spark/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

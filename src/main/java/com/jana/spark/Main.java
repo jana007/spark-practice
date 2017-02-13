@@ -1,5 +1,7 @@
 package com.jana.spark;
 
+import com.jana.spark.model.CourseIdeaDAO;
+import com.jana.spark.model.SimpleCourseIdeaDAO;
 import spark.ModelAndView;
 import spark.template.handlebars.HandlebarsTemplateEngine;
 
@@ -11,6 +13,9 @@ import static spark.Spark.post;
 
 public class Main {
     public static void main(String[] args) {
+
+        // use this method only for prototyping
+        CourseIdeaDAO dao = new SimpleCourseIdeaDAO(); // switch with database method later
 
         get("/", (req, res) -> {
             Map<String, String>model = new HashMap<>();
